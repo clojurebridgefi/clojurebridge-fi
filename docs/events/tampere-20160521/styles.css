@@ -1,0 +1,81 @@
+.address {
+  text-align: center;
+}
+
+.intro {
+  margin: 2rem 0;
+  font-size: 1.2rem;
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+}
+
+.intro .left {
+  flex: 3
+}
+
+.intro .right {
+  flex: 2;
+  padding-left: 2rem;
+}
+
+.register {
+  margin: 2rem auto;
+  text-align: center;
+}
+
+.register a {
+  padding: 1rem 2rem;
+  border-radius: 0.5rem;
+  border: 3px solid #5b5b5b;
+  background: #3cb13c;
+  color: #e8e8e8;
+  font-size: 1.3rem;
+  font-weight: bold;
+  transition: all 0.5s ease;
+}
+
+.register a:hover {
+  border-color: #2e5b35;
+  background: #48d248;
+  color: #ffffff;
+  box-shadow: 0 0 5px 5px rgba(9, 210, 9, 0.5);
+}
+
+.sponsors div {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.sponsors div a {
+  text-decoration: none;
+  border: none;
+}
+
+.sponsors div a img {
+  width: 300px;
+  padding: 0.5rem 1rem;
+}
+
+.agenda p {
+  padding-left: 2rem;
+  font-size: 1rem;
+}
+
+.agenda p:first-child {
+  padding-left: 0;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+@media all and (max-width: 970px) {
+  .intro {
+    flex-direction: column;
+  }
+  .sponsors div a img {
+    width: 200px;
+    padding: 0.3rem;
+  }
+}

@@ -1,0 +1,161 @@
+// Reset:
+
+@import 'reset';
+
+html {
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  background: #fefefe;
+  color: #000;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+a {
+  text-decoration: none;
+  border-bottom: 1px dashed #aaa;
+  color: #000;
+}
+
+a:hover {
+  border-bottom: 1px solid #000;
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+h1 {
+  font-size: 2.6rem;
+  font-family: "Cookie", cursive;
+}
+
+h2 {
+  font-size: 1.3rem;
+}
+
+h3 {
+  font-size: 1.1rem;
+}
+
+p {
+  margin: 1rem auto;
+  line-height: 1.4;
+}
+
+header {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: center;
+  background: url('img/cljbridge-zorcam.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 0px -120px;
+}
+
+header .clojurebridge-logo {
+  width: 120px;
+  margin: 4rem auto 12rem auto;
+}
+
+article {
+  align-self: center;
+  width: 970px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.main {
+  display: flex;
+  font-size: 1.2rem;
+}
+
+.info {
+  flex: 3;
+}
+
+.info .sponsors {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-items: baseline;
+}
+
+.info .sponsors img {
+  width: 120px;
+  padding: 0.5rem 0.5rem;
+}
+
+.info .sponsors a {
+  border: none;
+}
+
+.events {
+  margin-left: 3rem;
+  flex: 2;
+}
+
+.events ul {
+  list-style-type: circle;
+}
+
+.events ul li {
+  padding: 0.2rem 0;
+}
+
+footer {
+  margin-top: 3rem;
+  background: #999;
+  color: #000;
+  padding: 3rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+footer a {
+  text-decoration: none;
+  border-bottom: 1px dashed #000;
+  font-weight: bold;
+}
+
+footer div {
+  padding: 0.3rem;
+}
+
+.event {
+
+}
+
+.event .todo {
+  font-size: 2rem;
+  font-style: italic;
+  text-align: center;
+}
+
+@media all and (max-width: 970px) {
+  header {
+    background: none;
+  }
+  article {
+    width: auto;
+    padding: 0 1rem;
+  }
+  .main {
+    flex-direction: column;
+  }
+  .info .sponsors img {
+    width: 80px;
+    padding: 0.3rem;
+  }
+  header .clojurebridge-logo {
+    margin-bottom: 4rem;
+  }
+}
