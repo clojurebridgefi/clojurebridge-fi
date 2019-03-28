@@ -11,25 +11,15 @@ This is a GitHub pages project, the contents under `/docs` is the public content
 
 The main html file is at `/docs/index.html`. Styles are in SASS at `/src/styles.scss`.
 
-There's a handy `Justfile` if you have [just](https://github.com/casey/just) installed.
-
-Start SASS compilation:
+Start SASS compilation and auto reloading server using npm:
 
 ```bash
-just sass
+npm start
 ```
-
-Start auto reloading server:
- 
-```bash
-just reload
-``` 
-
 
 # Publish
 
 Once your changes are done just commit and push to master. 
-
 
 ## License
 
