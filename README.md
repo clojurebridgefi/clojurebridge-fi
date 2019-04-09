@@ -7,19 +7,20 @@ The pages are at https://clojurebridge.fi/
 
 # Development
 
-This is a GitHub pages project, the contents under `/docs` is the public content. 
+This is a GitHub pages project, the contents under `/docs` is the public content.
 
 The main html file is at `/docs/index.html`. Styles are in SASS at `/src/styles.scss`.
 
 Start SASS compilation and auto reloading server using npm:
 
 ```bash
+npm install
 npm start
 ```
 
 # Publish
 
-Once your changes are done just commit and push to master. 
+Once your changes are done just commit and push to master.
 
 ## License
 
