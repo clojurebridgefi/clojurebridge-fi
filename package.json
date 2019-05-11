@@ -1,7 +1,13 @@
 {
+  "scripts": {
+    "start": "concurrently npm:watch-sass npm:watch-docs",
+    "watch-sass": "sass --watch src/styles.scss docs/styles.css",
+    "watch-docs": "autoreload-server docs"
+  },
   "dependencies": {},
   "devDependencies": {
     "sass": "^1.15.2",
-    "simple-autoreload-server": "^0.2.7"
+    "simple-autoreload-server": "^0.2.7",
+    "concurrently": "^4.1.0"
   }
 }
