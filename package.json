@@ -6,8 +6,8 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "sass": "^1.15.2",
-    "simple-autoreload-server": "^0.2.7",
+    "sass": "^1.35.1",
+    "simple-autoreload-server": "^0.2.15",
     "concurrently": "^4.1.0"
   }
 }
